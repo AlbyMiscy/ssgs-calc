@@ -9,18 +9,6 @@
   </a>
 </p>
 
----
-
-## 📑 Indice
-
-- [📁 Struttura del progetto](#struttura-del-progettoo)
-- [🎯 Scopo del progetto](#scopo-del-progetto)
-- [🧠 Funzionalità](#funzionalità)
-- [🛠 Requisiti necessari](#requisiti-necessari)
-- [🧪 Test](#test)
-
----
-
 ## 📁 Struttura del progetto
 | **File** | **Cartella** | **Descrizione** | 
 |----------|--------------|-----------------|

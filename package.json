@@ -1,0 +1,26 @@
+{
+  "name": "ssgs-calc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlbyMiscy/ssgs-calc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlbyMiscy/ssgs-calc/issues"
+  },
+  "homepage": "https://github.com/AlbyMiscy/ssgs-calc#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

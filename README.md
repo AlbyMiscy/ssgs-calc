@@ -43,6 +43,19 @@ Il progetto **ssgs-calc** è una semplice applicazione di calcolatrice sviluppat
     npm install
     ```
 
+> **Nota**: La cartella `node_modules` non è inclusa nel repository. Verrà generata automaticamente eseguendo il comando `npm install`.
+
+> **Nota**: La cartella `coverage` non è inclusa nel repository. Verrà generata automaticamente eseguendo i test con Jest utilizzando l'opzione `--coverage`.
+
+## ✅​ Esecuzione del progetto 
+
+Per avviare il programma, esegui il seguente comando dalla directory principale del progetto:
+```bash
+node index.js
+```
+
+Segui le istruzioni mostrate nel terminale per selezionare l'operazione desiderata e inserire i numeri richiesti.
+
 ## 🧪 Test
 ### Installazione Jest
 Se Jest non è già installato, puoi aggiungerlo come dipendenza di sviluppo:

@@ -14,21 +14,19 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 18
+          cache: 'npm' # Abilita la cache per le dipendenze di Node.js
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Run tests with coverage
         run: npm test
-
-      - name: Verify coverage directory
-        run: ls -la coverage/
 
       - name: Upload coverage report
         uses: actions/upload-artifact@v4

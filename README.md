@@ -32,11 +32,11 @@ Il progetto **ssgs-calc** è una semplice applicazione di calcolatrice sviluppat
 
 
 ## 🛠 Requisiti necessari
-> **Requisito**: Assicurati di avere installato **Node.js >= 22.14.0**.
+> **Requisito**: Assicurati di avere installato **Node.js >= 16.0.0**.
 
 1. **Clona la repository**: 
     ```bash
-    git clone https://github.com/<AlbyMiscy>/ssgs-calc.git
+    git clone https://github.com/AlbyMiscy/ssgs-calc.git
     cd ssgs-calc
     ```
 2. **Installa le dipendenze**:
@@ -44,7 +44,7 @@ Il progetto **ssgs-calc** è una semplice applicazione di calcolatrice sviluppat
     npm install
     ```
 
-> **Nota**: Le cartelle `node_modules` e `coverage` non sono presenti nel repository. Verranno generate rispettivamente con `npm install` e `npm test`
+> **Nota**: Le cartelle `node_modules` e `coverage` non sono presenti nel repository. Verranno generate rispettivamente con `npm install` e `npm test`.
 
 ## ✅​ Esecuzione del progetto 
 
@@ -64,4 +64,9 @@ npm test
 ```
 Questo comando eseguirà tutti i test definiti utilizzando Jest e genererà automaticamente un report di coverage nella cartella coverage. La cartella coverage verrà creata nella directory principale del progetto, se non esiste già.
 
-
+## 🔑 Parole chiave
+Il progetto è ottimizzato per la ricerca con le seguenti parole chiave:
+- `calculator`
+- `arithmetic`
+- `nodejs`
+- `ssgs`

@@ -1,7 +1,7 @@
 {
   "name": "ssgs-calc",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple calculator application for basic arithmetic operations.",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -14,8 +14,8 @@
     "type": "git",
     "url": "git+https://github.com/AlbyMiscy/ssgs-calc.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["calculator", "arithmetic", "nodejs", "ssgs"],
+  "author": "AlbyMiscy",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AlbyMiscy/ssgs-calc/issues"
@@ -23,5 +23,8 @@
   "homepage": "https://github.com/AlbyMiscy/ssgs-calc#readme",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
